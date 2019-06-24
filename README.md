@@ -20,6 +20,15 @@
 
 
 
+### Data Visualization
+
+1. [How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)
+2. [Clustering on the output of t-SNE](https://stats.stackexchange.com/questions/263539/clustering-on-the-output-of-t-sne)
+
+
+
+
+
 ## Classification Model
 
 ### Hyperparameter Tuning
