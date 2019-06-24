@@ -4,9 +4,20 @@
 
 ## Data Preprocessing
 
+### Data Imputation
+
+1. [Python Package: fancyimpute](<https://pypi.org/project/fancyimpute/>)
+2. [Multiple Imputation by Chained Equations: What is it and how does it work?](<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3074241/>)
+3. [Imputing Missing Data with R:MICE package](<https://datascienceplus.com/imputing-missing-data-with-r-mice-package/>)
+
+
+
+
+
 ### Feature Scaling & Normalization
 
 1. [About Feature Scaling and Normalization: and the effect of standardization for machine learning algorithms](http://sebastianraschka.com/Articles/2014_about_feature_scaling.html)
+2. 
 
 
 
@@ -58,6 +69,17 @@
 
 
 
+##  Anomaly Detection
+
+1. [5 Ways to Detect Outliers/Anomalies That Every Data Scientist Should Know (Python Code)](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
+2. [Python Package: PyOD](<https://pyod.readthedocs.io/en/latest/>)
+
+
+
+
+
+
+
 ## Framework
 
 1. [Keras vs Pytorch for Deep Learning](https://towardsdatascience.com/keras-vs-pytorch-for-deep-learning-a013cb63870d)
@@ -66,13 +88,14 @@
 
 
 
-
-
-
-
-
-
 ## Others
 
-1. [5 Ways to Detect Outliers/Anomalies That Every Data Scientist Should Know (Python Code)](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
+1. [Here’s how you can get some free speed on your Python code with Numba](<https://towardsdatascience.com/heres-how-you-can-get-some-free-speed-on-your-python-code-with-numba-89fdc8249ef3>)
+
+
+
+
+
+
+
 
