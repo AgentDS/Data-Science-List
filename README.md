@@ -91,6 +91,7 @@
 ## Others
 
 1. [Here’s how you can get some free speed on your Python code with Numba](<https://towardsdatascience.com/heres-how-you-can-get-some-free-speed-on-your-python-code-with-numba-89fdc8249ef3>)
+2. [Make your Pandas apply functions faster using Parallel Processing](<https://towardsdatascience.com/make-your-own-super-pandas-using-multiproc-1c04f41944a1>)
 
 
 
