@@ -86,12 +86,86 @@
 
 
 
+## Anaconda & Jupyter Notebook
+
+### Manage conda environment
+
+Assume currently we are in the default conda environment, named ``base``, and we want to create the ``env`` named ``ticketextract`` with ``python=3.6``, use command below in Terminal or Anaconda Prompt:
+
+```shell
+conda create -n ticketextract python=3.6
+```
+
+When conda asks you to proceed, type `y`:
+
+```shell
+proceed ([y]/n)?
+```
+
+After all installation done, to activate environment ``ticketextract`` in Terminal:
+
+```shell
+conda activate ticketextract
+```
+
+Then we are in the environment ``ticketextract``.
+
+To deactivate environment ``ticketextract``:
+
+```shell
+conda deactivate
+```
+
+Then we are back into environment ``base`` again.
+
+
+
+### Add anaconda ``env`` to Jupyter Notebook kernel
+
+Assume currently we are in the default conda environment again, named ``base``, and we want to add the ``env`` in Jupyter Notebook kernel so we can use these environments in Jupyter Notebook.
+
+In ``base``, install ``nb_conda_kernels``:
+
+```shell
+(base)$conda install nb_conda_kernels
+```
+
+then confirm with ``y`` when shown ``proceed ([y]/n)?``.
+
+Now activate the ``env``, assuming named as ``ticketextract``, you want to add to Jupyter kernel, and install ``ipykernel`` in this environment:
+
+```shell
+(ticketextract)$conda install ipykernel
+```
+
+then confirm with ``y`` when shown ``proceed ([y]/n)?``.
+
+Now deactivate the ``ticketextract`` with ``conda deactivate``, and go back to the ``base``, in which you want to open Jupyter Notebook, type below in Terminal to open Jupyter Notebook:
+
+```shell
+(base)$jupyter notebook
+```
+
+Now you can see the kernel shown:
+
+![kernel](./kernel.png)
+
+And here we can see that kernel of ``base`` is shown as ``root``.
+
+> To conclude, install ``ipykernel`` in every environment you want to add to Jupyter kernel, and only install ``nb_conda_kernels`` in the environment you want to open Jupyter Notebook (usually it is ``base``)!!
+
+
+
+
+
 
 
 ## Others
 
 1. [Here’s how you can get some free speed on your Python code with Numba](<https://towardsdatascience.com/heres-how-you-can-get-some-free-speed-on-your-python-code-with-numba-89fdc8249ef3>)
 2. [Make your Pandas apply functions faster using Parallel Processing](<https://towardsdatascience.com/make-your-own-super-pandas-using-multiproc-1c04f41944a1>)
+
+
 
 
 
