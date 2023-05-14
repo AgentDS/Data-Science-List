@@ -93,14 +93,9 @@
 Assume currently we are in the default conda environment, named ``base``, and we want to create the ``env`` named ``ticketextract`` with ``python=3.6``, use command below in Terminal or Anaconda Prompt:
 
 ```shell
-conda create -n ticketextract python=3.6
+conda create -n ticketextract python=3.6 -y
 ```
 
-When conda asks you to proceed, type `y`:
-
-```shell
-proceed ([y]/n)?
-```
 
 After all installation done, to activate environment ``ticketextract`` in Terminal:
 
@@ -139,10 +134,8 @@ In ``base``, install ``jupyter_contrib_nbextensions`` for jupyter notebook exten
 Now activate the ``env``, assuming named as ``ticketextract``, you want to add to Jupyter kernel, and install ``ipykernel`` in this environment:
 
 ```shell
-(ticketextract)$conda install ipykernel
+(ticketextract)$conda install ipykernel -y
 ```
-
-then confirm with ``y`` when shown ``proceed ([y]/n)?``.
 
 Now deactivate the ``ticketextract`` with ``conda deactivate``, and go back to the ``base``, in which you want to open Jupyter Notebook, type below in Terminal to open Jupyter Notebook:
 
