@@ -127,10 +127,14 @@ Assume currently we are in the default conda environment again, named ``base``, 
 In ``base``, install ``nb_conda_kernels``:
 
 ```shell
-(base)$conda install nb_conda_kernels
+(base)$conda install nb_conda_kernels -y
 ```
 
-then confirm with ``y`` when shown ``proceed ([y]/n)?``.
+In ``base``, install ``jupyter_contrib_nbextensions`` for jupyter notebook extensions:
+
+```shell
+(base)$conda install -c conda-forge jupyter_contrib_nbextensions -y
+```
 
 Now activate the ``env``, assuming named as ``ticketextract``, you want to add to Jupyter kernel, and install ``ipykernel`` in this environment:
 
